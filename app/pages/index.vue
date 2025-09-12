@@ -26,7 +26,8 @@
     </div>
 
     <h1 class=" border-b-2 text-lg font-medium text-slate-600">Pelaporan</h1>
-    <div class="grid  gap-4">
+    <!-- Sementara 3 Jenis Pajak -->
+    <div class="grid gap-4">
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
         <div>
           <p class="text-slate-700 font-medium text-base">PBJT</p>
@@ -47,7 +48,7 @@
       </div>
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
         <div>
-          <p class="text-slate-700 font-medium text-base">Walet</p>
+          <p class="text-slate-700 font-medium text-base">Pajak Walet</p>
           <p class="text-sm font-medium line-clamp-1 text-slate-500">Pajak Sarang Burung Walet</p>
         </div>
         <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">

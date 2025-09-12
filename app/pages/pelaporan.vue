@@ -1,11 +1,19 @@
+
 <template>
   <div class="absolute bottom-2 right-4">
-      <button class="bg-red-400 rounded-full p-2 flex items-center">
-        <Icon name="material-symbols-light:add-2-rounded" size="1.5em" class="text-white" />
-      </button>
+    <button class="bg-red-400 rounded-full p-2 flex items-center">
+      <Icon name="material-symbols-light:add-2-rounded" size="1.5em" class="text-white" />
+    </button>
+  </div>
+  <div class="flex border-b-2 flex mb-4">
+    <div class="flex-1 border-b-4 hover:bg-slate-200 py-2 border-blue-400">
+      <p class="text-center">Self Assesment</p>
     </div>
+    <div class="flex-1 hover:bg-slate-200 py-2">
+      <p class="text-center">Official Assesment</p>
+    </div>
+  </div>
   <div class="grid gap-4">
-    
 
     <div class="p-2 bg-slate-50 rounded-lg border border-slate-300 flex justify-between items-center">
       <div class="space-y-1">
@@ -59,6 +67,4 @@
       </div>
     </div>
   </div>
-
-
 </template>
