@@ -8,9 +8,11 @@
     <div class="grid gap-4">  
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300 flex justify-between items-center">
         <p class="text-slate-700 font-medium text-base">Wajib Pajak</p>
+        <NuxtLink to="/wajib-pajak">
         <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
           <Icon name="material-symbols-light:chevron-right" size="1.6em" />
         </button>
+        </NuxtLink>
       </div>
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300 flex justify-between items-center">
         <p class="text-slate-700 font-medium text-base">Objek Pajak</p>
