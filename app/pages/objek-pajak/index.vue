@@ -1,4 +1,11 @@
 <template>
+  <div class="absolute bottom-2 right-4">
+    <NuxtLink to="/objek-pajak/form">
+      <button class="bg-red-400 rounded-full p-2 flex items-center">
+        <Icon name="material-symbols-light:add-2-rounded" size="1.5em" class="text-white" />
+      </button>
+    </NuxtLink>
+  </div>
   <div class="flex border-b-2 flex mb-4">
     <div class="flex-1 border-b-4 hover:bg-slate-200 py-2 border-blue-400">
       <p class="text-center">Self Assesment</p>
