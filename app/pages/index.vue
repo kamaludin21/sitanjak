@@ -5,13 +5,13 @@
 <template>
   <div class="grid gap-4">
     <h1 class=" border-b-2 text-lg font-medium text-slate-600">Data Pajak</h1>
-    <div class="grid gap-4">  
+    <div class="grid gap-4">
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300 flex justify-between items-center">
         <p class="text-slate-700 font-medium text-base">Wajib Pajak</p>
         <NuxtLink to="/wajib-pajak">
-        <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
-          <Icon name="material-symbols-light:chevron-right" size="1.6em" />
-        </button>
+          <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
+            <Icon name="material-symbols-light:chevron-right" size="1.6em" />
+          </button>
         </NuxtLink>
       </div>
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300 flex justify-between items-center">
@@ -30,14 +30,24 @@
     <div class="grid gap-4">
       <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
         <div>
+          <p class="text-slate-700 font-medium text-base">Reklame</p>
+          <p class="text-sm font-medium line-clamp-1 text-slate-500">Pajak Reklame</p>
+        </div>
+        <NuxtLink to="/skpd/reklame"
+          class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
+          <Icon name="material-symbols-light:chevron-right" size="1.6em" />
+        </NuxtLink>
+      </div>
+      <!-- <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
+        <div>
           <p class="text-slate-700 font-medium text-base">PBJT</p>
           <p class="text-sm font-medium line-clamp-1 text-slate-500">Pajak Barang dan Jasa Tertentu</p>
         </div>
         <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
           <Icon name="material-symbols-light:chevron-right" size="1.6em" />
         </button>
-      </div>
-      <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
+      </div> -->
+      <!-- <div class="p-2 bg-slate-200 rounded-lg border border-slate-300  flex justify-between items-center">
         <div>
           <p class="text-slate-700 font-medium text-base">BPHTB</p>
           <p class="text-sm font-medium line-clamp-1 text-slate-500">Bea Perolehan Hak atas Tanah dan Bangunan</p>
@@ -54,7 +64,7 @@
         <button class="bg-orange-600 text-white rounded-full border-white border flex items-center p-0.5">
           <Icon name="material-symbols-light:chevron-right" size="1.6em" />
         </button>
-      </div>
+      </div> -->
     </div>
 
   </div>

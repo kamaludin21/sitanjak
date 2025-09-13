@@ -16,10 +16,10 @@
   </div>
   <div class="grid gap-4">
 
-    <div class="p-2 bg-slate-50 rounded-lg border border-slate-300 flex justify-between items-center">
+    <NuxtLink to="/transaksi/pembayaran"
+      class="p-2 bg-slate-50 rounded-lg border border-slate-300 flex justify-between items-center">
       <div class="space-y-1">
         <p class="text-slate-600 font-medium text-lg">Usaha Air Bersih</p>
-
         <div class="flex items-center w-full gap-2">
           <Icon name="material-symbols-light:confirmation-number-rounded" size="1em" class="text-slate-600" />
           <p class="text-slate-500 font-medium text-sm">2510000005</p>
@@ -33,8 +33,9 @@
           <p class="text-slate-500 font-medium text-sm">PAT</p>
         </div>
       </div>
-    </div>
-    <div class="p-2 bg-slate-50 rounded-lg border border-slate-300 flex justify-between items-center">
+    </NuxtLink>
+    <NuxtLink to="/transaksi/pembayaran"
+      class="p-2 bg-slate-50 rounded-lg border border-slate-300 flex justify-between items-center">
       <div class="space-y-1">
         <p class="text-slate-600 font-medium text-lg">Reklame UMild Jalan Diponegoro</p>
 
@@ -51,8 +52,8 @@
           <p class="text-slate-500 font-medium text-sm">Pajak Reklame - Reklame Papan/Billboard</p>
         </div>
       </div>
-    </div>
-    
+    </NuxtLink>
+
   </div>
 
 </template>
